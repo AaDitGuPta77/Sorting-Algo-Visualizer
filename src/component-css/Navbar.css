@@ -1,0 +1,28 @@
+.bar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(66, 65, 65);
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+}
+
+.theme-icon {
+    background-color: aliceblue;
+    font-size: 24px; 
+    cursor: pointer; 
+    transition: color 0.3s;
+    color: black;
+    border-radius: 5px;
+}
+
+.theme-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+

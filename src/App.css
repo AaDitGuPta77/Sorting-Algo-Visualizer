@@ -1,0 +1,31 @@
+html, body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+*{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.mainBody{
+  display: flex;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.light-mode {
+  background-color: #f9f9f9;  
+  color: #333; 
+}
+
+
+.dark-mode {
+background-color: #1e1e1e;   
+  color: #f9f9f9;
+}
+
