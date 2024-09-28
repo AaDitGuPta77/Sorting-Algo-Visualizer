@@ -2,60 +2,60 @@
   flex: 0.8;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  
+  margin-top: 50px;
+  min-height: 100%;
 }
 
-.array-container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    margin-bottom: 40px;
-    height: 50vh;
-  }
-  
-  .array-bar {
-    width: 30px;
-    background-color: blue;
-    margin: 0px 10px;
-    border-radius: 10px;
-    position: relative;
-    transition: height 1s ease;
-  }
+.array-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80%;
+  padding-bottom: 20px;
 
-  .array-value{
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-weight: bold;
-  }
-  
-  .vButton {
-    padding: 10px 20px;
-    background-color: rgb(131, 217, 217);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .vButton:hover {
-    background-color: #218838;
-  }
+}
 
-  .Input-Section{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 70px;
-  }
+.array-bar {
+  width: 30px;
+  background-color: blue;
+  margin: 0px 10px;
+  border-radius: 10px;
+  position: relative;
+  transition: height 1s ease;
+}
 
-  input{
-    width: 500px;
-    border-style: dotted;
-    border-radius: 5px;
-  }
- 
-  
+.array-value{
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+}
+
+.vButton {
+  padding: 10px 20px;
+  background-color: rgb(131, 217, 217);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.vButton:hover {
+  background-color: #218838;
+}
+
+.Input-Section{
+  display: flex;
+  gap: 10px;
+  bottom: 0;
+  justify-content: center;
+}
+
+input{
+  width: 500px;
+  border-style: groove;
+  border-radius: 5px;
+  padding: 10px;
+}

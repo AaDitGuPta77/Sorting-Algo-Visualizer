@@ -201,7 +201,7 @@ const quickSort = async () => {
 
 
   return (
-    <div className={isDarkmode ? '* dark-mode' : '* light-mode'}>
+    <div className= {isDarkmode ? 'fS dark-mode' : 'fS light-mode'}>
     <Navbar className="Nav" isDarkmode={isDarkmode} toggleTheme={toggleTheme} />
     <div className='mainBody'>
     <SortingAlgo bubbleSort={bubbleSort} 
