@@ -17,7 +17,7 @@ Welcome to the **Sorting Algorithm Visualizer**, an interactive tool designed to
 
 ## Demo
 
-Check out the live demo of the Sorting Algorithm Visualizer here: [Sorting Algorithm Visualizer](https://lnkd.in/dsUtuSqM)
+Check out the live demo of the Sorting Algorithm Visualizer here: [Sorting Algorithm Visualizer](https://sorting-algo-visualizer-tan.vercel.app/)
 
 ## Getting Started
 
